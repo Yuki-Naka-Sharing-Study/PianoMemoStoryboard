@@ -7,23 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D8ACC17FED017D0D74A494F /* Pods_PianoMemoStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A9D5915D6D784370B6C56B /* Pods_PianoMemoStoryboard.framework */; };
 		D1CC392D2A4AFC9F0057067B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC392C2A4AFC9F0057067B /* AppDelegate.swift */; };
 		D1CC392F2A4AFC9F0057067B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC392E2A4AFC9F0057067B /* SceneDelegate.swift */; };
-		D1CC39312A4AFC9F0057067B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC39302A4AFC9F0057067B /* ViewController.swift */; };
 		D1CC39342A4AFC9F0057067B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CC39322A4AFC9F0057067B /* Main.storyboard */; };
 		D1CC39362A4AFCA10057067B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1CC39352A4AFCA10057067B /* Assets.xcassets */; };
 		D1CC39392A4AFCA10057067B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CC39372A4AFCA10057067B /* LaunchScreen.storyboard */; };
+		D1CC39412A4AFCC50057067B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC39402A4AFCC50057067B /* MainViewController.swift */; };
+		D1CC39462A4AFD440057067B /* CanPopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC39452A4AFD440057067B /* CanPopsViewController.swift */; };
+		D1CC39482A4AFD680057067B /* PracticePopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC39472A4AFD680057067B /* PracticePopsViewController.swift */; };
+		D1CC394A2A4AFD900057067B /* WantPopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC39492A4AFD900057067B /* WantPopsViewController.swift */; };
+		D1CC394C2A4AFDB90057067B /* CanClassicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC394B2A4AFDB90057067B /* CanClassicViewController.swift */; };
+		D1CC394E2A4AFDDF0057067B /* PracticeClassicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC394D2A4AFDDF0057067B /* PracticeClassicViewController.swift */; };
+		D1CC39522A4AFE270057067B /* CanJazzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC39512A4AFE270057067B /* CanJazzViewController.swift */; };
+		D1CC39542A4AFE490057067B /* PracticeJazzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC39532A4AFE490057067B /* PracticeJazzViewController.swift */; };
+		D1CC39562A4AFE730057067B /* WantJazzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC39552A4AFE730057067B /* WantJazzViewController.swift */; };
+		D1CC39582A4B05B30057067B /* WantClassicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC39572A4B05B30057067B /* WantClassicViewController.swift */; };
+		D1CC395A2A4B06A20057067B /* CanBluesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC39592A4B06A20057067B /* CanBluesViewController.swift */; };
+		D1CC395C2A4B06B10057067B /* PracticeBluesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC395B2A4B06B10057067B /* PracticeBluesViewController.swift */; };
+		D1CC395E2A4B06C20057067B /* WantBluesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC395D2A4B06C20057067B /* WantBluesViewController.swift */; };
+		D1CC39602A4B06D90057067B /* CanHikigatariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC395F2A4B06D90057067B /* CanHikigatariViewController.swift */; };
+		D1CC39622A4B06F30057067B /* PracticeHikigatariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC39612A4B06F30057067B /* PracticeHikigatariViewController.swift */; };
+		D1CC39642A4B07040057067B /* WantHikigatariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC39632A4B07040057067B /* WantHikigatariViewController.swift */; };
+		D1CC39662A4B07130057067B /* CanRendanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC39652A4B07130057067B /* CanRendanViewController.swift */; };
+		D1CC39682A4B07250057067B /* PracticeRendanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC39672A4B07250057067B /* PracticeRendanViewController.swift */; };
+		D1CC396A2A4B07330057067B /* WantRendanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC39692A4B07330057067B /* WantRendanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07A9D5915D6D784370B6C56B /* Pods_PianoMemoStoryboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PianoMemoStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BAC75221DB9431E6915DFD /* Pods-PianoMemoStoryboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PianoMemoStoryboard.release.xcconfig"; path = "Target Support Files/Pods-PianoMemoStoryboard/Pods-PianoMemoStoryboard.release.xcconfig"; sourceTree = "<group>"; };
 		D1CC39292A4AFC9F0057067B /* PianoMemoStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoMemoStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1CC392C2A4AFC9F0057067B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1CC392E2A4AFC9F0057067B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D1CC39302A4AFC9F0057067B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D1CC39332A4AFC9F0057067B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1CC39352A4AFCA10057067B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1CC39382A4AFCA10057067B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1CC393A2A4AFCA10057067B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1CC39402A4AFCC50057067B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D1CC39452A4AFD440057067B /* CanPopsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanPopsViewController.swift; sourceTree = "<group>"; };
+		D1CC39472A4AFD680057067B /* PracticePopsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePopsViewController.swift; sourceTree = "<group>"; };
+		D1CC39492A4AFD900057067B /* WantPopsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantPopsViewController.swift; sourceTree = "<group>"; };
+		D1CC394B2A4AFDB90057067B /* CanClassicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanClassicViewController.swift; sourceTree = "<group>"; };
+		D1CC394D2A4AFDDF0057067B /* PracticeClassicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeClassicViewController.swift; sourceTree = "<group>"; };
+		D1CC39512A4AFE270057067B /* CanJazzViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanJazzViewController.swift; sourceTree = "<group>"; };
+		D1CC39532A4AFE490057067B /* PracticeJazzViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeJazzViewController.swift; sourceTree = "<group>"; };
+		D1CC39552A4AFE730057067B /* WantJazzViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantJazzViewController.swift; sourceTree = "<group>"; };
+		D1CC39572A4B05B30057067B /* WantClassicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantClassicViewController.swift; sourceTree = "<group>"; };
+		D1CC39592A4B06A20057067B /* CanBluesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanBluesViewController.swift; sourceTree = "<group>"; };
+		D1CC395B2A4B06B10057067B /* PracticeBluesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeBluesViewController.swift; sourceTree = "<group>"; };
+		D1CC395D2A4B06C20057067B /* WantBluesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantBluesViewController.swift; sourceTree = "<group>"; };
+		D1CC395F2A4B06D90057067B /* CanHikigatariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanHikigatariViewController.swift; sourceTree = "<group>"; };
+		D1CC39612A4B06F30057067B /* PracticeHikigatariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeHikigatariViewController.swift; sourceTree = "<group>"; };
+		D1CC39632A4B07040057067B /* WantHikigatariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantHikigatariViewController.swift; sourceTree = "<group>"; };
+		D1CC39652A4B07130057067B /* CanRendanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanRendanViewController.swift; sourceTree = "<group>"; };
+		D1CC39672A4B07250057067B /* PracticeRendanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeRendanViewController.swift; sourceTree = "<group>"; };
+		D1CC39692A4B07330057067B /* WantRendanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantRendanViewController.swift; sourceTree = "<group>"; };
+		E81004DFA7E05753556B7C44 /* Pods-PianoMemoStoryboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PianoMemoStoryboard.debug.xcconfig"; path = "Target Support Files/Pods-PianoMemoStoryboard/Pods-PianoMemoStoryboard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +71,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D8ACC17FED017D0D74A494F /* Pods_PianoMemoStoryboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		064B310EEC404F8741E89296 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E81004DFA7E05753556B7C44 /* Pods-PianoMemoStoryboard.debug.xcconfig */,
+				17BAC75221DB9431E6915DFD /* Pods-PianoMemoStoryboard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2519C2E556853B8136B11B1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07A9D5915D6D784370B6C56B /* Pods_PianoMemoStoryboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D1CC39202A4AFC9F0057067B = {
 			isa = PBXGroup;
 			children = (
 				D1CC392B2A4AFC9F0057067B /* PianoMemoStoryboard */,
 				D1CC392A2A4AFC9F0057067B /* Products */,
+				064B310EEC404F8741E89296 /* Pods */,
+				2519C2E556853B8136B11B1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +116,57 @@
 		D1CC392B2A4AFC9F0057067B /* PianoMemoStoryboard */ = {
 			isa = PBXGroup;
 			children = (
-				D1CC392C2A4AFC9F0057067B /* AppDelegate.swift */,
-				D1CC392E2A4AFC9F0057067B /* SceneDelegate.swift */,
-				D1CC39302A4AFC9F0057067B /* ViewController.swift */,
-				D1CC39322A4AFC9F0057067B /* Main.storyboard */,
+				D1CC39422A4AFCF20057067B /* Delegate */,
+				D1CC39432A4AFCFE0057067B /* ViewController */,
+				D1CC39442A4AFD1D0057067B /* Storyboard */,
 				D1CC39352A4AFCA10057067B /* Assets.xcassets */,
-				D1CC39372A4AFCA10057067B /* LaunchScreen.storyboard */,
 				D1CC393A2A4AFCA10057067B /* Info.plist */,
 			);
 			path = PianoMemoStoryboard;
+			sourceTree = "<group>";
+		};
+		D1CC39422A4AFCF20057067B /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D1CC392C2A4AFC9F0057067B /* AppDelegate.swift */,
+				D1CC392E2A4AFC9F0057067B /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		D1CC39432A4AFCFE0057067B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1CC39402A4AFCC50057067B /* MainViewController.swift */,
+				D1CC39452A4AFD440057067B /* CanPopsViewController.swift */,
+				D1CC39472A4AFD680057067B /* PracticePopsViewController.swift */,
+				D1CC39492A4AFD900057067B /* WantPopsViewController.swift */,
+				D1CC394B2A4AFDB90057067B /* CanClassicViewController.swift */,
+				D1CC394D2A4AFDDF0057067B /* PracticeClassicViewController.swift */,
+				D1CC39572A4B05B30057067B /* WantClassicViewController.swift */,
+				D1CC39512A4AFE270057067B /* CanJazzViewController.swift */,
+				D1CC39532A4AFE490057067B /* PracticeJazzViewController.swift */,
+				D1CC39552A4AFE730057067B /* WantJazzViewController.swift */,
+				D1CC39592A4B06A20057067B /* CanBluesViewController.swift */,
+				D1CC395B2A4B06B10057067B /* PracticeBluesViewController.swift */,
+				D1CC395D2A4B06C20057067B /* WantBluesViewController.swift */,
+				D1CC395F2A4B06D90057067B /* CanHikigatariViewController.swift */,
+				D1CC39612A4B06F30057067B /* PracticeHikigatariViewController.swift */,
+				D1CC39632A4B07040057067B /* WantHikigatariViewController.swift */,
+				D1CC39652A4B07130057067B /* CanRendanViewController.swift */,
+				D1CC39672A4B07250057067B /* PracticeRendanViewController.swift */,
+				D1CC39692A4B07330057067B /* WantRendanViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D1CC39442A4AFD1D0057067B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D1CC39322A4AFC9F0057067B /* Main.storyboard */,
+				D1CC39372A4AFCA10057067B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1CC393D2A4AFCA10057067B /* Build configuration list for PBXNativeTarget "PianoMemoStoryboard" */;
 			buildPhases = (
+				F66A5E45F2F402387FA6DE77 /* [CP] Check Pods Manifest.lock */,
 				D1CC39252A4AFC9F0057067B /* Sources */,
 				D1CC39262A4AFC9F0057067B /* Frameworks */,
 				D1CC39272A4AFC9F0057067B /* Resources */,
+				16E0209576E3378705067B2C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +237,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16E0209576E3378705067B2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PianoMemoStoryboard/Pods-PianoMemoStoryboard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PianoMemoStoryboard/Pods-PianoMemoStoryboard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PianoMemoStoryboard/Pods-PianoMemoStoryboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F66A5E45F2F402387FA6DE77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PianoMemoStoryboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D1CC39252A4AFC9F0057067B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1CC39312A4AFC9F0057067B /* ViewController.swift in Sources */,
 				D1CC392D2A4AFC9F0057067B /* AppDelegate.swift in Sources */,
+				D1CC39642A4B07040057067B /* WantHikigatariViewController.swift in Sources */,
+				D1CC39542A4AFE490057067B /* PracticeJazzViewController.swift in Sources */,
+				D1CC39622A4B06F30057067B /* PracticeHikigatariViewController.swift in Sources */,
+				D1CC395E2A4B06C20057067B /* WantBluesViewController.swift in Sources */,
+				D1CC396A2A4B07330057067B /* WantRendanViewController.swift in Sources */,
 				D1CC392F2A4AFC9F0057067B /* SceneDelegate.swift in Sources */,
+				D1CC395C2A4B06B10057067B /* PracticeBluesViewController.swift in Sources */,
+				D1CC39412A4AFCC50057067B /* MainViewController.swift in Sources */,
+				D1CC395A2A4B06A20057067B /* CanBluesViewController.swift in Sources */,
+				D1CC39522A4AFE270057067B /* CanJazzViewController.swift in Sources */,
+				D1CC39562A4AFE730057067B /* WantJazzViewController.swift in Sources */,
+				D1CC39682A4B07250057067B /* PracticeRendanViewController.swift in Sources */,
+				D1CC394C2A4AFDB90057067B /* CanClassicViewController.swift in Sources */,
+				D1CC394E2A4AFDDF0057067B /* PracticeClassicViewController.swift in Sources */,
+				D1CC39482A4AFD680057067B /* PracticePopsViewController.swift in Sources */,
+				D1CC39582A4B05B30057067B /* WantClassicViewController.swift in Sources */,
+				D1CC39662A4B07130057067B /* CanRendanViewController.swift in Sources */,
+				D1CC394A2A4AFD900057067B /* WantPopsViewController.swift in Sources */,
+				D1CC39602A4B06D90057067B /* CanHikigatariViewController.swift in Sources */,
+				D1CC39462A4AFD440057067B /* CanPopsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +446,7 @@
 		};
 		D1CC393E2A4AFCA10057067B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E81004DFA7E05753556B7C44 /* Pods-PianoMemoStoryboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +475,7 @@
 		};
 		D1CC393F2A4AFCA10057067B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17BAC75221DB9431E6915DFD /* Pods-PianoMemoStoryboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
